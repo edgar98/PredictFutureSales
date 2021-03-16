@@ -3,7 +3,7 @@ from keras.layers import LSTM, Dense, Dropout
 import pandas as pd
 
 
-def lstm_predict(x_train, y_train, x_test, test_data):
+def predict(x_train, y_train, x_test, test_data):
 
     # defining our model
     my_model = Sequential()
@@ -22,4 +22,4 @@ def lstm_predict(x_train, y_train, x_test, test_data):
     # creating dataframe with required columns
     submission = pd.DataFrame({'ID': test_data['ID'], 'item_cnt_month': submission_pfs.ravel()})
     # creating csv file from dataframe
-    submission.to_csv('sub_pfs.csv', index=False)
+    submission.to_csv('sub_pfs_ltsm.csv', index=False)

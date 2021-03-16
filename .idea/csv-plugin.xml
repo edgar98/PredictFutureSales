@@ -45,6 +45,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/sub_pfs_ltsm.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/submit.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/test.ipynb">
           <value>
             <Attribute>
