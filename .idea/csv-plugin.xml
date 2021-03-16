@@ -45,6 +45,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/sub_pfs_lin_ger.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/sub_pfs_lin_reg.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/sub_pfs_ltsm.csv">
           <value>
             <Attribute>
