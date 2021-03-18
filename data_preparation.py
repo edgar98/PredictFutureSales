@@ -179,4 +179,4 @@ def get_data2():
                                                                                 test_size=0.33,
                                                                                 random_state=42)  # нормализованные данные с использованием метода обработки категориальных признаков - get_dummies
 
-    return X_train_check, y_train_check, X_test_check, y_test_check, X_test, test
+    return X_train_check, y_train_check, X_test_check, y_test_check, X_test_num, test
